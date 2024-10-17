@@ -1,0 +1,66 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Fraunces", serif;
+}
+
+body {
+    background-color: rgb(207, 164, 134);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+main {
+    display: flex;
+    width: 600px;
+    border-radius: 8px;
+}
+
+.image-parfum img {
+    width: 50%;
+}
+
+
+
+.information {
+    background-color: #fff;
+    width: 50%;
+    padding: 32px;
+}
+
+.prix {
+    display: flex;
+   align-items: center;
+}
+
+.prix-reduit {
+    font-size: 32px;
+    font-weight: 700;
+    color: #3D8168;
+}
+
+.solde{
+    text-decoration: line-through;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bouton {
+    background-color: #3D8168;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+a {
+    background-color: #3D8168;
+    padding: 16px 63px;
+    border-radius: 8px;
+    color: white;
+}
